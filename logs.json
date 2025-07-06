@@ -1,0 +1,77 @@
+[
+  {
+    "level": "error",
+    "message": "dashboard-services error",
+    "resourceId": "dashboard-services",
+    "traceId": "abc-4",
+    "spanId": "span-1",
+    "commit": "commit-1",
+    "metadata": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "browser": "Chrome",
+      "os": "Windows",
+      "ipAddress": "150.107.241.181"
+    },
+    "timestamp": "2025-07-06T12:48:48.773Z"
+  },
+  {
+    "level": "error",
+    "message": "Database connection issue.\t",
+    "resourceId": "server-2",
+    "traceId": "abc-1",
+    "spanId": "span-2",
+    "commit": "commit-2",
+    "metadata": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "browser": "Chrome",
+      "os": "Windows",
+      "ipAddress": "150.107.241.181"
+    },
+    "timestamp": "2025-07-06T13:01:58.875Z"
+  },
+  {
+    "level": "info",
+    "message": "User login successful",
+    "resourceId": "auth-service",
+    "traceId": "abc-2",
+    "spanId": "span-2",
+    "commit": "commit-2",
+    "metadata": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "browser": "Chrome",
+      "os": "Windows",
+      "ipAddress": "150.107.241.181"
+    },
+    "timestamp": "2025-07-06T13:02:51.718Z"
+  },
+  {
+    "level": "warn",
+    "message": "Low disk space on server-456",
+    "resourceId": "server-456",
+    "traceId": "abc-3",
+    "spanId": "span-5",
+    "commit": "commit-5",
+    "metadata": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "browser": "Chrome",
+      "os": "Windows",
+      "ipAddress": "150.107.241.181"
+    },
+    "timestamp": "2025-07-06T13:03:41.693Z"
+  },
+  {
+    "level": "info",
+    "message": "User Registration successfully.",
+    "resourceId": "registration-service",
+    "timestamp": "2025-07-06T13:59:58.217Z",
+    "traceId": "abc-7",
+    "spanId": "span-7",
+    "commit": "commit-7",
+    "metadata": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "browser": "Chrome",
+      "os": "Windows",
+      "ipAddress": "150.107.241.181"
+    }
+  }
+]
